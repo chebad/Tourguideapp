@@ -12,7 +12,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
         Button tourMeButton = (Button) findViewById(R.id.tour_me_button);
 
         tourMeButton.setOnClickListener(new View.OnClickListener() {
