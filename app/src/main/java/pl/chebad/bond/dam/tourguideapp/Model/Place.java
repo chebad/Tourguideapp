@@ -4,7 +4,7 @@ package pl.chebad.bond.dam.tourguideapp.Model;
  * Created by Damian Bondaruk on 2017-05-31.
  */
 
-public class ModPlace {
+public class Place {
     private final int PICTURE_PROVIDED = -1;
     private String simpleInformation;
     private String explication;
@@ -16,7 +16,7 @@ public class ModPlace {
      * @param simpleInformation Simple info about place.
      * @param explication       More information about attraction or place, e.g. history.
      */
-    public ModPlace(String simpleInformation, String explication) {
+    public Place(String simpleInformation, String explication) {
         this.simpleInformation = simpleInformation;
         this.explication = explication;
     }
@@ -28,7 +28,7 @@ public class ModPlace {
      * @param explication       More information about attraction or place, e.g. history.
      * @param pictureID         Picture which describe this place. Id from resources files.
      */
-    public ModPlace(String simpleInformation, String explication, int pictureID) {
+    public Place(String simpleInformation, String explication, int pictureID) {
         this.simpleInformation = simpleInformation;
         this.explication = explication;
         this.pictureID = pictureID;
