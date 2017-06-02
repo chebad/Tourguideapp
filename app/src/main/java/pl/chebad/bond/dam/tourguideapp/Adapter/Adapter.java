@@ -39,9 +39,9 @@ public class Adapter extends ArrayAdapter<Place> {
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
         View listItemView = convertView;
-        if (listItemView.equals(null)) {
+        if (listItemView == null) {
             listItemView = LayoutInflater.from(getContext()).inflate(
-                    R.layout.list_places, parent, false
+                    R.layout.model_place, parent, false
             );
         }
 

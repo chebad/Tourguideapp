@@ -1,5 +1,6 @@
 package pl.chebad.bond.dam.tourguideapp;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -17,7 +18,8 @@ public class MainActivity extends AppCompatActivity {
         tourMeButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent openNewActivity = new Intent(getBaseContext(), PlacesActivity.class);
+                startActivity(openNewActivity);
             }
         });
     }
