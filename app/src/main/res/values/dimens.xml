@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="margin_5dp">5dp</dimen>
+    <dimen name="margin_10dp">10dp</dimen>
+    <dimen name="image_view_width">170dp</dimen>
+    <dimen name="image_view_height">170dp</dimen>
 </resources>

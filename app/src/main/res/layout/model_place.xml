@@ -9,9 +9,9 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginBottom="@dimen/margin_5dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginTop="5dp">
+        android:layout_marginLeft="@dimen/margin_10dp"
+        android:layout_marginRight="@dimen/margin_10dp"
+        android:layout_marginTop="@dimen/margin_5dp">
 
         <RelativeLayout
             android:id="@+id/relative_model_place"
@@ -27,11 +27,11 @@
 
                 <ImageView
                     android:id="@+id/image_view"
-                    android:layout_width="170dp"
-                    android:layout_height="170dp"
-                    android:layout_marginBottom="5dp"
-                    android:layout_marginStart="5dp"
-                    android:layout_marginTop="5dp"
+                    android:layout_width="@dimen/image_view_width"
+                    android:layout_height="@dimen/image_view_height"
+                    android:layout_marginBottom="@dimen/margin_5dp"
+                    android:layout_marginStart="@dimen/margin_5dp"
+                    android:layout_marginTop="@dimen/margin_5dp"
                     android:background="#ddd"
                     android:contentDescription="@string/view_of_the_place"
                     android:src="@mipmap/ic_launcher_round" />
@@ -40,7 +40,7 @@
                     android:id="@+id/simple_information_view"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_margin="5dp"
+                    android:layout_margin="@dimen/margin_5dp"
                     android:background="#ddd" />
             </LinearLayout>
 
@@ -50,9 +50,9 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentBottom="true"
                 android:layout_below="@id/linear_container"
-                android:layout_marginBottom="5dp"
-                android:layout_marginLeft="5dp"
-                android:layout_marginRight="5dp"
+                android:layout_marginBottom="@dimen/margin_5dp"
+                android:layout_marginLeft="@dimen/margin_5dp"
+                android:layout_marginRight="@dimen/margin_5dp"
                 android:background="#ddd" />
 
         </RelativeLayout>
