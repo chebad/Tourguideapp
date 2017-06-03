@@ -1,33 +1,21 @@
 package pl.chebad.bond.dam.tourguideapp;
 
 import android.os.Bundle;
+import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
-import android.widget.ListView;
 
-import java.util.ArrayList;
-
-import pl.chebad.bond.dam.tourguideapp.Adapter.Adapter;
-import pl.chebad.bond.dam.tourguideapp.Model.Place;
+import pl.chebad.bond.dam.tourguideapp.Adapter.TourGuideFragmentAdapter;
 
 public class PlacesActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.list_places);
+        setContentView(R.layout.fragment_places);
 
-        ArrayList<Place> places = new ArrayList<>();
+        ViewPager viewPager = (ViewPager) findViewById(R.id.viewpager);
+        TourGuideFragmentAdapter fragmentAdapter = new TourGuideFragmentAdapter(getSupportFragmentManager());
 
-        places.add(new Place("test test test", "test test test test test test test test test test test test " +
-                "test test test test test test test test test test test test test test test test test test test test test test test test", R.mipmap.ic_launcher_round));
-        places.add(new Place("test test test", "test test test test test test test test test test test test", R.mipmap.ic_launcher_round));
-        places.add(new Place("test test test", "test test test test test test test test test test test test", R.mipmap.ic_launcher_round));
-        places.add(new Place("test test test", "test test test test test test test test test test test test", R.mipmap.ic_launcher_round));
-        places.add(new Place("test test test", "test test test test test test test test test test test test", R.mipmap.ic_launcher_round));
-        places.add(new Place("test test test", ""));
-
-        Adapter adapter = new Adapter(this, places);
-        ListView listView = (ListView) findViewById(R.id.places_list_view);
-        listView.setAdapter(adapter);
+        viewPager.setAdapter(fragmentAdapter);
     }
 }

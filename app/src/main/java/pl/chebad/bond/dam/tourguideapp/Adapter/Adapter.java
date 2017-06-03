@@ -32,7 +32,6 @@ public class Adapter extends ArrayAdapter<Place> {
 
     public Adapter(Context context, ArrayList<Place> places) {
         super(context, 0, places);
-
     }
 
     @NonNull
