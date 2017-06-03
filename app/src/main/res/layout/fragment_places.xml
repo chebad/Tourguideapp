@@ -13,11 +13,7 @@
         android:elevation="6dp"
         app:tabBackground="@color/colorPrimary"
         app:tabMode="fixed" />
-    <!--    ^^^^^^^^^^^^^^^^^^^
-    app:tabIndicatorColor="@color/white_color"
-    app:tabSelectedTextColor="@color/white_color"
-    app:tabTextColor="@color/letters_color"
-    -->
+
     <android.support.v4.view.ViewPager
         android:id="@+id/viewpager"
         android:layout_width="match_parent"
