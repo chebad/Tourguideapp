@@ -18,11 +18,13 @@ public class PlacesActivity extends AppCompatActivity {
 
         ArrayList<Place> places = new ArrayList<>();
 
+        places.add(new Place("test test test", "test test test test test test test test test test test test " +
+                "test test test test test test test test test test test test test test test test test test test test test test test test", R.mipmap.ic_launcher_round));
         places.add(new Place("test test test", "test test test test test test test test test test test test", R.mipmap.ic_launcher_round));
         places.add(new Place("test test test", "test test test test test test test test test test test test", R.mipmap.ic_launcher_round));
         places.add(new Place("test test test", "test test test test test test test test test test test test", R.mipmap.ic_launcher_round));
         places.add(new Place("test test test", "test test test test test test test test test test test test", R.mipmap.ic_launcher_round));
-        places.add(new Place("test test test", "test test test test test test test test test test test test", R.mipmap.ic_launcher_round));
+        places.add(new Place("test test test", ""));
 
         Adapter adapter = new Adapter(this, places);
         ListView listView = (ListView) findViewById(R.id.places_list_view);

@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Tour guide app</string>
+    <string name="view_of_the_place">View of the place.</string>
 </resources>

@@ -57,6 +57,7 @@ public class Adapter extends ArrayAdapter<Place> {
             imagePlace.setImageResource(currentPlace.getPictureID());
             imagePlace.setVisibility(View.VISIBLE);
         } else {
+
             imagePlace.setVisibility(View.GONE);
         }
 
