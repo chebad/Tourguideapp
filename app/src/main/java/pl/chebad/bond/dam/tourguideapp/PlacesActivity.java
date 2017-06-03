@@ -11,11 +11,11 @@ import pl.chebad.bond.dam.tourguideapp.Adapter.TourGuideFragmentAdapter;
 
 public class PlacesActivity extends AppCompatActivity {
     private int[] tabIcons = {
-            R.drawable.ic_fun,
-            R.drawable.ic_culture,
-            R.drawable.ic_health_activity,
-            R.drawable.ic_restaurant,
-            R.drawable.ic_school
+            R.drawable.tab_color_selector_culture,
+            R.drawable.tab_color_selector_fun,
+            R.drawable.tab_color_selector_health_activity,
+            R.drawable.tab_color_selector_restaurant,
+            R.drawable.tab_color_selector_school
     };
 
     @Override
