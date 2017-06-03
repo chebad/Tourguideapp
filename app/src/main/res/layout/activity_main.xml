@@ -5,6 +5,11 @@
     android:layout_height="match_parent"
     tools:context="pl.chebad.bond.dam.tourguideapp.MainActivity">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/town_background" />
     <Button
         android:id="@+id/tour_me_button"
         android:layout_width="wrap_content"
