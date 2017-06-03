@@ -7,12 +7,13 @@
 
     <Button
         android:id="@+id/tour_me_button"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:background="@drawable/buttonshape"
         android:text="Tour Me!"
         android:textAllCaps="false"
         android:textColor="#000"
-        android:textSize="32sp" />
+        android:textSize="62sp"
+        android:textStyle="bold|italic" />
 </RelativeLayout>

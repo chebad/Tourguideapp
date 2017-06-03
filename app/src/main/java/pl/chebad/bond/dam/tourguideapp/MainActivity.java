@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         tourMeButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                final long delay = 600L;
+                final long delay = 500L;
                 // mis-clicking prevention, using threshold of delay variable
                 if (SystemClock.elapsedRealtime() - mLastClickTime < delay) {
                     return;
@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
                 mLastClickTime = SystemClock.elapsedRealtime();
 
                 Animation animation = AnimationUtils.loadAnimation(getBaseContext(), R.anim.bounce);
-                BounceInterpolator interpolator = new BounceInterpolator(0.2, 20);
+                BounceInterpolator interpolator = new BounceInterpolator(0.15, 27);
                 animation.setInterpolator(interpolator);
                 tourMeButton.startAnimation(animation);
                 tourMeButton.postDelayed(new Runnable() {
