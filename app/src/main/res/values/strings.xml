@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">Tour guide</string>
     <string name="view_of_the_place">View of the place.</string>
+    <string name="cul_grave_of_unknown_soldier_tittle">Grave of unknown soldier</string>
+    <string name="cul_lazienki_park_tittle">Łazienki Park</string>
+    <string name="cul_royal_palace_tittle">Royal Palace</string>
+    <string name="cul_warsaw_mermaid_tittle">Warsaw mermaid</string>
+    <string name="cul_comedy_theatre_tittle">Warsaw comedy theater</string>
+    <string name="cul_national_theatre_tittle">Warsaw national theatre</string>
 </resources>

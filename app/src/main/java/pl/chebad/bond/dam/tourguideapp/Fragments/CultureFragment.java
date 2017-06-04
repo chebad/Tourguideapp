@@ -18,12 +18,18 @@ import pl.chebad.bond.dam.tourguideapp.R;
  * A simple {@link Fragment} subclass.
  */
 public class CultureFragment extends Fragment {
-
+    private int[] tabImageOfCulturePlaces = {
+            R.drawable.cul_grave_of_unknow_soldiers,
+            R.drawable.cul_lazienki_park,
+            R.drawable.cul_royal_palace,
+            R.drawable.cul_syren_warsaw,
+            R.drawable.cul_theatre_comedy,
+            R.drawable.cul_theatre_national
+    };
 
     public CultureFragment() {
         // Required empty public constructor
     }
-
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -32,24 +38,12 @@ public class CultureFragment extends Fragment {
 
         ArrayList<Place> places = new ArrayList<>();
 
-        places.add(new Place("test test test", "test test test test test test test test test test test test " +
-                "test test test test test test test test test test test test test test test test test test test test test test test test", R.mipmap.ic_launcher_round));
-        places.add(new Place("test test test", "test test test test test test test test test test test test", R.mipmap.ic_launcher_round));
-        places.add(new Place("test test test", "test test test test test test test test test test test test", R.mipmap.ic_launcher_round));
-        places.add(new Place("test test test", "test test test test test test test test test test test test", R.mipmap.ic_launcher_round));
-        places.add(new Place("test test test", "test test test test test test test test test test test test", R.mipmap.ic_launcher_round));
-        places.add(new Place("test test test", "test test test test test test test test test test test test"));
-        places.add(new Place("test test test", "test test test test test test test test test test test test"));
-        places.add(new Place("test test test", "test test test test test test test test test test test test"));
-        places.add(new Place("test test test", "test test test test test test test test test test test test"));
-        places.add(new Place("test test test", "test test test test test test test test test test test test"));
-        places.add(new Place("test test test", "test test test test test test test test test test test test"));
-        places.add(new Place("test test test", "test test test test test test test test test test test test"));
-        places.add(new Place("test test test", "test test test test test test test test test test test test"));
-        places.add(new Place("test test test", "test test test test test test test test test test test test"));
-        places.add(new Place("test test test", "test test test test test test test test test test test test"));
-        places.add(new Place("test test test", "test test test test test test test test test test test test"));
-        places.add(new Place("test test test", "test test test test test test test test test test test test"));
+        places.add(new Place(getString(R.string.cul_grave_of_unknown_soldier_tittle), "test test test test test test test test test test test test", tabImageOfCulturePlaces[0]));
+        places.add(new Place(getString(R.string.cul_lazienki_park_tittle), "test test test test test test test test test test test test", tabImageOfCulturePlaces[1]));
+        places.add(new Place(getString(R.string.cul_royal_palace_tittle), "test test test test test test test test test test test test", tabImageOfCulturePlaces[2]));
+        places.add(new Place(getString(R.string.cul_warsaw_mermaid_tittle), "test test test test test test test test test test test test", tabImageOfCulturePlaces[3]));
+        places.add(new Place(getString(R.string.cul_comedy_theatre_tittle), "test test test test test test test test test test test test", tabImageOfCulturePlaces[4]));
+        places.add(new Place(getString(R.string.cul_national_theatre_tittle), "test test test test test test test test test test test test", tabImageOfCulturePlaces[5]));
 
         Adapter adapter = new Adapter(getActivity(), places);
         ListView listView = (ListView) rootView.findViewById(R.id.places_list_view);
