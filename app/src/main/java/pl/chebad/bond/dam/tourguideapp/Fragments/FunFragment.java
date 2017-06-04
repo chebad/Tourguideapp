@@ -18,6 +18,13 @@ import pl.chebad.bond.dam.tourguideapp.R;
  * A simple {@link Fragment} subclass.
  */
 public class FunFragment extends Fragment {
+    private int[] tabImageOfFunPlaces = {
+            R.drawable.fun_beach_warsaw,
+            R.drawable.fun_bowling,
+            R.drawable.fun_ice_skating,
+            R.drawable.fun_warsaw_clubs,
+    };
+
     public FunFragment() {
         // Required empty public constructor
     }
@@ -29,13 +36,10 @@ public class FunFragment extends Fragment {
 
         ArrayList<Place> places = new ArrayList<>();
 
-        places.add(new Place("test test test", "test test test test test test test test test test test test " +
-                "test test test test test test test test test test test test test test test test test test test test test test test test", R.mipmap.ic_launcher_round));
-        places.add(new Place("test test test", "test test test test test test test test test test test test", R.mipmap.ic_launcher_round));
-        places.add(new Place("test test test", "test test test test test test test test test test test test", R.mipmap.ic_launcher_round));
-        places.add(new Place("test test test", "test test test test test test test test test test test test", R.mipmap.ic_launcher_round));
-        places.add(new Place("test test test", "test test test test test test test test test test test test", R.mipmap.ic_launcher_round));
-        places.add(new Place("test test test", "test test test test test test test test test test test test"));
+        places.add(new Place(getString(R.string.fun_beach_warsaw_tittle), getString(R.string.fun_beach_warsaw_description), tabImageOfFunPlaces[0]));
+        places.add(new Place(getString(R.string.fun_bowling_warsaw_tittle), getString(R.string.fun_warsaw_bowling_description), tabImageOfFunPlaces[1]));
+        places.add(new Place(getString(R.string.fun_ice_skating_tittle), getString(R.string.fun_ice_skating_description), tabImageOfFunPlaces[2]));
+        places.add(new Place(getString(R.string.fun_warsaw_clubs_tittle), getString(R.string.fun_warsaw_clubs_description), tabImageOfFunPlaces[3]));
 
         Adapter adapter = new Adapter(getActivity(), places);
         ListView listView = (ListView) rootView.findViewById(R.id.places_list_view);
