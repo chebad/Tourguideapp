@@ -1,10 +1,95 @@
 <resources>
     <string name="app_name">Tour guide</string>
     <string name="view_of_the_place">View of the place.</string>
-    <string name="cul_grave_of_unknown_soldier_tittle">Grave of unknown soldier</string>
+    <string name="cul_tomb_of_unknown_soldier_tittle">Tomb of unknown soldier</string>
     <string name="cul_lazienki_park_tittle">Łazienki Park</string>
-    <string name="cul_royal_palace_tittle">Royal Palace</string>
+    <string name="cul_royal_castle_tittle">Royal Castle</string>
     <string name="cul_warsaw_mermaid_tittle">Warsaw mermaid</string>
     <string name="cul_comedy_theatre_tittle">Warsaw comedy theater</string>
     <string name="cul_national_theatre_tittle">Warsaw national theatre</string>
+    <string name="fun_warsaw_clubs_tittle">Warsaw Clubs</string>
+    <string name="fun_bowling_warsaw_tittle">Warsaw Bowling</string>
+    <string name="fun_ice_skating_tittle">Ice skating at National Stadium</string>
+    <string name="fun_beach_warsaw_tittle">Warsaw Beaches</string>
+
+    <!-- Description of images -->
+    <string name="cul_tomb_of_unknown_soldier_description">
+        The Tomb of the Unknown Soldier (Polish: Grób Nieznanego Żołnierza) is a monument in Warsaw, Poland,
+        dedicated to the unknown soldiers who have given their lives for Poland.
+        It is one of many such national tombs of unknowns that were erected after World War I,
+        and the most important such monument in Poland. The monument, located at Piłsudski Square,
+        is the only surviving part of the Saxon Palace that occupied the spot until World War II.
+        Since 2 November 1925 the tomb houses the unidentified body of a young soldier who fell during the Defence of Lwów.
+        Since then, earth from numerous battlefields where Polish soldiers have fought has been added to the urns housed in the surviving pillars of the Saxon Palace.
+        The Tomb is constantly lit by an eternal flame and assisted by a guard post by the Representative Battalion of the Polish Army.
+        It is there that most official military commemorations take place in Poland and where foreign representatives lay wreaths when visiting Poland.
+        The changing of the guard takes place on the hour of every hour daily and this happens 365 days a year.
+    </string>
+    <string name="cul_lazienki_park_description">
+        Lazienki Park (Polish: Park Łazienkowski or Łazienki Królewskie: \"Baths Park\" or \"Royal Baths\"; also rendered \"Royal Baths Park\")
+        is the largest park in Warsaw, Poland, occupying 76 hectares of the city center.
+        The park-and-palace complex lies in Warsaw\'s central district (Śródmieście) on Ujazdów Avenue,
+        which is part of the Royal Route linking the Royal Castle with Wilanów Palace to the south.
+        North of Łazienki Park, on the other side of Agrykola Street, stands Ujazdów Castle.
+        Originally designed in the 17th century as a baths park (hence the name) for nobleman Stanisław Herakliusz Lubomirski,
+        in the 18th century Łazienki was transformed by Poland\'s King Stanisław August into a setting for palaces, villas, classicist follies, and monuments.
+        In 1918 it was officially designated a public park. Łazienki is visited by tourists from all over Poland and the world,
+        and serves as a venue for music, the arts, and culture. The park is also home to peacocks and a large number of squirrels.
+    </string>
+    <string name="cul_royal_castle_description">
+        The Royal Castle in Warsaw (Polish: Zamek Królewski w Warszawie) is a castle residency that formerly served throughout the centuries as
+        the official residence of the Polish monarchs. It is located in the Castle Square, at the entrance to the Warsaw Old Town.
+        The personal offices of the king and the administrative offices of the Royal Court of Poland were located there from the sixteenth century until the Partitions of Poland.
+        Initially the complex served as the residence of the Dukes of Masovia, and since the sixteenth century,
+        the seat of the Polish-Lithuanian Commonwealth: the King and Parliament (Chamber of Deputies and Senate).
+        In its long history the Royal Castle was repeatedly plundered and devastated by the invading Swedish, Brandenburgian, Prussian and Tsarist armies.
+        The Constitution of 3 May 1791, the first of its type in Europe and the world\'s second-oldest codified national constitution after the 1789 U.S. Constitution,
+        was drafted here by the Four-Year Sejm. In the 19th century, after the collapse of the November Uprising,
+        it was used as an administrative centre by the Tsar and was re-designed for the needs of the Imperial Russian administration.
+        During the course of World War I it was the residence of the German Governor-General.
+        In 1920-1922 the Royal Castle was the seat of the Polish Head of State and
+        between 1926 and World War II the building was the residence of the Polish president, Ignacy Mościcki.
+    </string>
+    <string name="cul_warsaw_mermaid_description">
+        The Mermaid of Warsaw (Polish: Syrenka Warszawska) is a symbol of Warsaw, represented on the city\'s coat of arms and well as in a number of statues and other imagery.
+        Polish syrenka is cognate with siren, but she is more properly a fresh-water mermaid called melusina. The common English translation, in any case, is neither siren nor melusina but mermaid.
+        There are various legends about the Warsaw mermaid. The main one used in the City\'s literature and by tour guides says that the mermaid was swimming in the river when she stopped on a
+        riverbank near the Old Town to rest. Liking it, she decided to stay. Local fishermen noticed that something was creating waves, tangling nets, and releasing their fish.
+        They planned to trap the offender, but fell in love with her upon hearing her singing. Later, a rich merchant trapped the mermaid and imprisoned her.
+        Hearing her cries, the fishermen rescued her, and ever since, the mermaid, armed with a sword and a shield, has been ready to help protect the city and its residents.
+        Sometimes this legend is expanded to say that the Little Mermaid in Copenhagen is the Warsaw mermaid\'s sister and they went their separate ways from the Baltic Sea.
+        Another legend states that she assisted a prince when he got lost hunting and he founded the city in her honour.
+    </string>
+    <string name="cul_warsaw_comedy_theatre_description">
+        The \"Komedia\" Theater began operating in 1957 at the Sierpecka street, 7th corner of Próchnik, built in 1952, later entered in the register of monuments, with a charming interior, excellent acoustics and visibility (amphitheater system), allowing the presentation of various performances. The first performance that began the activity of the Theater \"Komedia\" was the premiere musical \"Cola Porter\'s "Kiss me Kate\" with Polish lyrics by Janusz Minkiewicz and Antoni Marianowicz, directed by Jerzy Rakowiecki and scenery by Jan Kosiński. This event took place on September 14, 1957. From the very beginning of his existence, the Theater presented mainly classical comedies, among them: \"What\'s going on\" and \"Lifeguard\" by Aleksander Fredro, musical comedies and singing like \"\I'm not afraid of Rojek brothers\" K.I. Gałczyński, Leon Schiller\'s \"Kram with songs\" directed by Olga Lipińska, and performances for children and teenagers: \"Ring and rose\", \"Dwarfs, dwarfs\". Theater \"Komedia\" is a scene for viewers who want to forget about the hardships of everyday life, and even if for two hours - with the cloak - their life\'s stress in the cloakroom. It does not translate good comedies into directing peculiarities and does not put on his head what he prefers to stand on.
+    </string>
+    <string name="cul_warsaw_national_theatre_description">
+        The National Theatre (Teatr Narodowy) in Warsaw, Poland, was founded in 1765, during the Polish Enlightenment, by that country\'s last monarch, Stanisław August Poniatowski.
+        The theatre shares the Grand Theatre complex at the Theatre Square in Warsaw with another national venue, the Poland\'s National Opera.
+        Opera was brought to Poland by future King Władysław IV Vasa within twenty years of the first opera presentations in Florence. In 1628 he invited the first Italian opera company to Warsaw.
+        Upon ascending the Polish throne in 1632, he built a theatre in his castle, and regular opera performances were produced there by an Italian company directed by Marco Scacchi.
+        The first public opera-theater in Poland, the Operalnia in Warsaw, was opened on July 3, 1748. It was located in the Saxon Garden
+        (at today\'s intersection of Marszałkowska Street of Królewska Street) and functioned under royal patronage. The Operalnia\'s building was erected in 1725 at the initiative of Augustus II,
+        costing 5000 ducats, as a rectangular structure divided into three parts. From 1774 on, opera, theatre and ballet performances were held in the Radziwiłł Palace
+        (today the official home of Poland\'s president). The first Polish opera was produced there on 11 July 1778, Maciej Kamieński\'s Poverty Made Happy,
+        with Wojciech Bogusławski\'s libretto based on a comedy by Franciszek Bohomolec. In 1779-1833 performances took place in a new theatre building on Krasiński Square,
+        later called the National Theatre). The National Theatre was founded in 1765, during the Polish Enlightenment, by the country\'s last monarch, Stanisław August Poniatowski.
+        Known as the father of Polish National Theatre, Bogusławski was a renowned actor, singer, director, playwright and entrepreneur.
+        Also, at the National Theatre, from 1785 a troupe of His Majesty\'s Dancers (headed by ballet masters François Gabriel Le Doux of Paris and Daniel Curz of Venice) became active.
+        At this theatre, on 17 March 1830, Chopin premiered his Piano Concerto No. 1 in E minor, Op. 11. Closed after the November 1830 Uprising,
+        in 1924 the National Theatre was revived under the Second Polish Republic. Under the Polish People\'s Republic (1945–89),the quality of the Theatre\'s productions was at times adversely
+        affected by government pressures.
+    </string>
+    <string name="fun_warsaw_clubs_description">
+        Clubs in Warsaw range from sedate to sinful, and we cover the full gamut here. A night spent clubbing means you\’ll most likely greet the dawn because, unlike the closing times you might be used to, Polish clubs stay open until the sun comes up. Expect a cover charge at most venues that can range from 5-20zl depending on events, and note that toilet paper is often a luxury that seems to universally run out around 22:00.
+    </string>
+    <string name="fun_warsaw_bowling_description">
+        Warsaw, Indiana\'s PREMIER BOWLING ALLEY with a full service bar and restaurant! We can even help with everything from birthday parties to company events! Give us a call today to book your event!
+    </string>
+    <string name="fun_ice_skating_description">
+        During winter the National Stadium also serves as Poland\'s largest indoor ice skating complex. Divided into two sections with separate prices, Rink A is a traditional ice oval (admission 13/10zł during the week and 14/11zł on weekends), while Rink B is a double rink connected by an ice path and costs a little extra (15/12zł; weekends 16/13zł). Opening hours for both rinks are Mon-Thu 15:30 - 23:00 and both are open until March 3rd. If you\'re up for a little more action on the ice make sure to visit Rink A late on Friday (23:00 - 00:15) and Saturday (22:15 - 23:30) for their disco skating nights with DJs, lights and production values.
+    </string>
+    <string name="fun_beach_warsaw_description">
+        The Beaches in Warsaw began to be popular with sunbathing during the interwar period of the 20th century. In around the Miedzeszyński Embankment (Wał Miedzeszyński) functioned a popular beach area, this included the Beach of the Kozłowski Brothers (Plaża Braci Kozłowskich) and the Poniatówka urban beach - both of which had wooden pavilions and changing rooms. The modern functional beaches in Warsaw were featured in National Geographic\'s Top Urban Beaches in the World. In 2014, due to the increasing popularity of urban beaches the City of Warsaw launched a night tram line from the Poniatowski Bridge.
+    </string>
 </resources>

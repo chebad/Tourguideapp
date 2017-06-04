@@ -3,7 +3,7 @@
     <dimen name="margin_5dp">5dp</dimen>
     <dimen name="margin_10dp">10dp</dimen>
     <dimen name="image_view_width">170dp</dimen>
-    <dimen name="image_view_height">170dp</dimen>
+    <dimen name="image_view_height">140dp</dimen>
     <dimen name="text_size_primary">24sp</dimen>
     <dimen name="text_size_explication">14sp</dimen>
 </resources>

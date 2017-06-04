@@ -38,12 +38,12 @@ public class CultureFragment extends Fragment {
 
         ArrayList<Place> places = new ArrayList<>();
 
-        places.add(new Place(getString(R.string.cul_grave_of_unknown_soldier_tittle), "test test test test test test test test test test test test", tabImageOfCulturePlaces[0]));
-        places.add(new Place(getString(R.string.cul_lazienki_park_tittle), "test test test test test test test test test test test test", tabImageOfCulturePlaces[1]));
-        places.add(new Place(getString(R.string.cul_royal_palace_tittle), "test test test test test test test test test test test test", tabImageOfCulturePlaces[2]));
-        places.add(new Place(getString(R.string.cul_warsaw_mermaid_tittle), "test test test test test test test test test test test test", tabImageOfCulturePlaces[3]));
-        places.add(new Place(getString(R.string.cul_comedy_theatre_tittle), "test test test test test test test test test test test test", tabImageOfCulturePlaces[4]));
-        places.add(new Place(getString(R.string.cul_national_theatre_tittle), "test test test test test test test test test test test test", tabImageOfCulturePlaces[5]));
+        places.add(new Place(getString(R.string.cul_tomb_of_unknown_soldier_tittle), getString(R.string.cul_tomb_of_unknown_soldier_description), tabImageOfCulturePlaces[0]));
+        places.add(new Place(getString(R.string.cul_lazienki_park_tittle), getString(R.string.cul_lazienki_park_description), tabImageOfCulturePlaces[1]));
+        places.add(new Place(getString(R.string.cul_royal_castle_tittle), getString(R.string.cul_royal_castle_description), tabImageOfCulturePlaces[2]));
+        places.add(new Place(getString(R.string.cul_warsaw_mermaid_tittle), getString(R.string.cul_warsaw_mermaid_description), tabImageOfCulturePlaces[3]));
+        places.add(new Place(getString(R.string.cul_comedy_theatre_tittle), getString(R.string.cul_warsaw_comedy_theatre_description), tabImageOfCulturePlaces[4]));
+        places.add(new Place(getString(R.string.cul_national_theatre_tittle), getString(R.string.cul_warsaw_national_theatre_description), tabImageOfCulturePlaces[5]));
 
         Adapter adapter = new Adapter(getActivity(), places);
         ListView listView = (ListView) rootView.findViewById(R.id.places_list_view);
