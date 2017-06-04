@@ -11,7 +11,11 @@
     <string name="fun_bowling_warsaw_tittle">Warsaw Bowling</string>
     <string name="fun_ice_skating_tittle">Ice skating at National Stadium</string>
     <string name="fun_beach_warsaw_tittle">Warsaw Beaches</string>
-
+    <string name="edu_national_museum_tittle">National Museum</string>
+    <string name="edu_copernicus_science_centre_tittle">Copernicus Science Centre</string>
+    <string name="edu_museum_polish_army_tittle">Museum of the Polish Army</string>
+    <string name="edu_warsaw_uprising_museum_tittle">Warsaw Uprising Museum</string>
+    <string name="edu_museum_of_prison_pawiak_tittle">Museum of the Prison Pawiak</string>
     <!-- Description of images -->
     <string name="cul_tomb_of_unknown_soldier_description">
         The Tomb of the Unknown Soldier (Polish: Grób Nieznanego Żołnierza) is a monument in Warsaw, Poland,
@@ -91,5 +95,20 @@
     </string>
     <string name="fun_beach_warsaw_description">
         The Beaches in Warsaw began to be popular with sunbathing during the interwar period of the 20th century. In around the Miedzeszyński Embankment (Wał Miedzeszyński) functioned a popular beach area, this included the Beach of the Kozłowski Brothers (Plaża Braci Kozłowskich) and the Poniatówka urban beach - both of which had wooden pavilions and changing rooms. The modern functional beaches in Warsaw were featured in National Geographic\'s Top Urban Beaches in the World. In 2014, due to the increasing popularity of urban beaches the City of Warsaw launched a night tram line from the Poniatowski Bridge.
+    </string>
+    <string name="edu_national_museum_description">
+        The National Museum in Warsaw (Polish: Muzeum Narodowe w Warszawie), popularly abbreviated as MNW, is a national museum in Warsaw, one of the largest museums in Poland and the largest in the capital. It comprises a rich collection of ancient art (Egyptian, Greek, Roman), counting about 11,000 pieces, an extensive gallery of Polish painting since the 16th century and a collection of foreign painting (Italian, French, Flemish, Dutch, German and Russian) including some paintings from Adolf Hitler\'s private collection, ceded to the Museum by the American authorities in post-war Germany. The museum is also home to numismatic collections, a gallery of applied arts and a department of oriental art, with the largest collection of Chinese art in Poland, comprising some 5,000 objects.
+    </string>
+    <string name="edu_copernicus_science_centre_description">
+        The Copernicus Science Centre is operating in its official building since 2010. However the idea for such a construction in Warsaw dates back to the late 90s, when the Science Picnic and Science Festival became a huge success. In 2004, after an agreement had been signed by the President of Warsaw, Minister of Science and Minister of Education, the Centre’s construction project has been launched.
+    </string>
+    <string name="edu_museum_polish_army_description">
+        Museum of the Polish Army (Polish: Muzeum Wojska Polskiego) is a museum in Warsaw documenting the military aspects of the history of Poland. Created in 1920, it occupies a wing of the building of the Polish National Museum as well as several branches in Poland. It\'s Warsaw\'s second largest museum and the largest collection of military objects in Poland. The collection illustrates a thousand years of Polish military history - from the 10th century to the Second World War.
+    </string>
+    <string name="edu_warsaw_uprising_museum_description">
+        The Warsaw Uprising Museum (named Warsaw Rising Museum, Polish: Muzeum Powstania Warszawskiego), in the Wola district of Warsaw, Poland, is dedicated to the Warsaw Uprising of 1944. The institution of the museum was established in 1983, but no construction work took place for many years. It opened on July 31, 2004, marking the 60th anniversary of the uprising. The museum sponsors research into the history of the uprising, and the history and possessions of the Polish Underground State. It collects and maintains hundreds of artifacts — ranging from weapons used by the insurgents to love letters — to present a full picture of the people involved. The museum\'s stated goals include the creation of an archive of historical information on the uprising and the recording of the stories and memories of living participants. Its director is Jan Ołdakowski, with historian Dariusz Gawin from the Polish Academy of Sciences as his deputy. The museum is a member organisation of the Platform of European Memory and Conscience.
+    </string>
+    <string name="edu_museum_of_prison_pawiak_description">
+        The Pawiak Prison Museum is a former investigative prison, which had particular importance during the World War II. It held people arrested in roundups, members of the resistance and political prisoners. Located in the centre of Warsaw, the prison walls witnessed mass crimes that shocked the occupied city. About 37,000 prisoners were shot there, and about 60,000 were sent on to concentration and labour camps, after interrogation and torture behind its walls. Although there is an emphasis on the period of German occupation, the exhibition "Pawiak 1835-1944" covers the entire period of activity of the prison, and is based on an original design which was created by renowned Warsaw architect Henryk Marconi between 1830-1836.
     </string>
 </resources>

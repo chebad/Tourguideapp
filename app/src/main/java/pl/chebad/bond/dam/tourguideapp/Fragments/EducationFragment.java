@@ -18,12 +18,17 @@ import pl.chebad.bond.dam.tourguideapp.R;
  * A simple {@link Fragment} subclass.
  */
 public class EducationFragment extends Fragment {
-
+    private int[] tabImageOfEducationPlaces = {
+            R.drawable.edu_army,
+            R.drawable.edu_copernicus,
+            R.drawable.edu_national,
+            R.drawable.edu_pawiak,
+            R.drawable.edu_uprising
+    };
 
     public EducationFragment() {
         // Required empty public constructor
     }
-
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -32,28 +37,11 @@ public class EducationFragment extends Fragment {
 
         ArrayList<Place> places = new ArrayList<>();
 
-        places.add(new Place("test test test", "test test test test test test test test test test test test " +
-                "test test test test test test test test test test test test test test test test test test test test test test test test", R.mipmap.ic_launcher_round));
-        places.add(new Place("test test test", "test test test test test test test test test test test test", R.mipmap.ic_launcher_round));
-        places.add(new Place("test test test", "test test test test test test test test test test test test", R.mipmap.ic_launcher_round));
-        places.add(new Place("test test test", "test test test test test test test test test test test test", R.mipmap.ic_launcher_round));
-        places.add(new Place("test test test", "test test test test test test test test test test test test", R.mipmap.ic_launcher_round));
-        places.add(new Place("test test test", "test test test test test test test test test test test test", R.mipmap.ic_launcher_round));
-        places.add(new Place("test test test", "test test test test test test test test test test test test", R.mipmap.ic_launcher_round));
-        places.add(new Place("test test test", "test test test test test test test test test test test test", R.mipmap.ic_launcher_round));
-        places.add(new Place("test test test", "test test test test test test test test test test test test", R.mipmap.ic_launcher_round));
-        places.add(new Place("test test test", "test test test test test test test test test test test test", R.mipmap.ic_launcher_round));
-        places.add(new Place("test test test", "test test test test test test test test test test test test", R.mipmap.ic_launcher_round));
-        places.add(new Place("test test test", "test test test test test test test test test test test test", R.mipmap.ic_launcher_round));
-        places.add(new Place("test test test", "test test test test test test test test test test test test", R.mipmap.ic_launcher_round));
-        places.add(new Place("test test test", "test test test test test test test test test test test test", R.mipmap.ic_launcher_round));
-        places.add(new Place("test test test", "test test test test test test test test test test test test", R.mipmap.ic_launcher_round));
-        places.add(new Place("test test test", "test test test test test test test test test test test test", R.mipmap.ic_launcher_round));
-        places.add(new Place("test test test", "test test test test test test test test test test test test", R.mipmap.ic_launcher_round));
-        places.add(new Place("test test test", "test test test test test test test test test test test test", R.mipmap.ic_launcher_round));
-        places.add(new Place("test test test", "test test test test test test test test test test test test", R.mipmap.ic_launcher_round));
-        places.add(new Place("test test test", "test test test test test test test test test test test test", R.mipmap.ic_launcher_round));
-        places.add(new Place("test test test", "test test test test test test test test test test test test", R.mipmap.ic_launcher_round));
+        places.add(new Place(getString(R.string.edu_museum_polish_army_tittle), getString(R.string.edu_museum_polish_army_description), tabImageOfEducationPlaces[0]));
+        places.add(new Place(getString(R.string.edu_copernicus_science_centre_tittle), getString(R.string.edu_copernicus_science_centre_description), tabImageOfEducationPlaces[1]));
+        places.add(new Place(getString(R.string.edu_national_museum_tittle), getString(R.string.edu_national_museum_description), tabImageOfEducationPlaces[2]));
+        places.add(new Place(getString(R.string.edu_national_museum_tittle), getString(R.string.edu_museum_of_prison_pawiak_description), tabImageOfEducationPlaces[3]));
+        places.add(new Place(getString(R.string.edu_warsaw_uprising_museum_tittle), getString(R.string.edu_warsaw_uprising_museum_description), tabImageOfEducationPlaces[4]));
 
         Adapter adapter = new Adapter(getActivity(), places);
         ListView listView = (ListView) rootView.findViewById(R.id.places_list_view);
