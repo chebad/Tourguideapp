@@ -24,11 +24,11 @@ public class TourGuideFragmentAdapter extends FragmentPagerAdapter {
         Fragment fragment = null;
         switch (position) {
             case 0: {
-                fragment = new FunFragment();
+                fragment = new CultureFragment();
                 break;
             }
             case 1: {
-                fragment = new CultureFragment();
+                fragment = new FunFragment();
                 break;
             }
             case 2: {
@@ -36,11 +36,11 @@ public class TourGuideFragmentAdapter extends FragmentPagerAdapter {
                 break;
             }
             case 3: {
-                fragment = new EducationFragment();
+                fragment = new RestaurantFragment();
                 break;
             }
             case 4: {
-                fragment = new RestaurantFragment();
+                fragment = new EducationFragment();
                 break;
             }
         }
