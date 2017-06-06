@@ -20,6 +20,10 @@
     <string name="rest_rozana_tittle">Różana Restaurant</string>
     <string name="rest_platter_tittle">Platter by Karol Okrasa</string>
     <string name="rest_amrit_oriental_tittle">Amrit Oriental FOOD</string>
+    <string name="health_national_stadium_tittle">National Stadium</string>
+    <string name="health_veturilo_tittle">Veturillo Bikes</string>
+    <string name="health_orlen_marathon_tittle">Orlen Warsaw Marathon</string>
+    <string name="health_wodny_park_tittle">Wodny Park Warsaw</string>
 
     <!-- Description of images -->
     <string name="cul_tomb_of_unknown_soldier_description">
@@ -129,5 +133,17 @@
     </string>
     <string name="rest_amrit_oriental_description">
         AMRIT KEBAB exists since 2007. The Syrian owner who has lived in Poland for years , along with his Polish wife, wanted to perform in Amrit what is in his country most interesting - the extraordinary atmosphere of the Orient. Creating the restaurant they took care not only of aesthetics, but also thought about satisfying the gentlest palates. All this in hot rhythms of Arabic music. From the very entrance we are transferred into the world of fairy tale: the exotic-oriental Arabic climate of the interior lets us transfer into distant corners of Arabic world.
+    </string>
+    <string name="health_national_stadium_description">
+        The PGE Narodowy (official name since 2015) or National Stadium (Polish: Stadion Narodowy is a retractable roof football stadium located in Warsaw, Poland. It is used mostly for football matches and it is the home stadium of Poland national football team. The stadium has a seating capacity of 58,145 which makes it the largest association football arena in Poland. Its construction started in 2008 and finished in November 2011. It is located on the site of the former 10th-Anniversary Stadium, on Aleja Zieleniecka in Praga Południe district, near the city center. The stadium has a retractable PVC roof which unfolds from a nest on a spire suspended above the centre of the pitch. The retractable roof is inspired by the cable-supported unfolding system of Commerzbank-Arena in Frankfurt, Germany, and is similar to the newly renovated roof of BC Place in Vancouver, British Columbia, Canada. The stadium is also very similar to the Arena Națională in Bucharest in terms of age, capacity and the roof.
+    </string>
+    <string name="health_verturilo_bikes_description">
+        Veturilo is a public bicycle sharing system in Warsaw, Poland, launched on 1 August 2012 with 55 stations and 1000 bicycles in 3 districts - Śródmieście (city centre), Bielany and Ursynów, 2 other stations started operating in the middle of August in Wilanów. It is the biggest public bicycle sharing system in Poland and the fifth largest in Europe.
+    </string>
+    <string name="health_orlen_marathon_description">
+        The ORLEN Warsaw Marathon is the largest running event in Poland. Each year, runners can test their skill in one of two distances: full marathon and 10 km. The ORLEN Warsaw Marathon includes the Polish Men Marathon Championship. The ORLEN Warsaw Marathon takes place in Warsaw on 22-23 April 2017. You can register for either of the two ORLEN Warsaw Marathon distances: marathon (42,195 km) and 10 km. Minors are allowed in the 10 km run, provided they present a consent signed by their parent/legal guardian. The marathon is for adult runners ONLY.Age limits: Marathon: 18 years of age on the day of the Run OSHEE 10 km Run: 16 years of age on the day of the Run and a signed parent/legal guardian consent.
+    </string>
+    <string name="health_wodny_park_description">
+        The object of the Water Park Foundation manages Mokotowska Warszawianka - Water Park. The Foundation seeks to actively promote the sports development of children and youth, propagating physical culture already among the youngest. We offer a full range of products and services that respond to the needs of the market and very diverse audience. Here everyone will find something for themselves. Check out our wide offer and benefit from the best deals on the market.
     </string>
 </resources>
