@@ -40,7 +40,7 @@ public class EducationFragment extends Fragment {
         places.add(new Place(getString(R.string.edu_museum_polish_army_tittle), getString(R.string.edu_museum_polish_army_description), tabImageOfEducationPlaces[0]));
         places.add(new Place(getString(R.string.edu_copernicus_science_centre_tittle), getString(R.string.edu_copernicus_science_centre_description), tabImageOfEducationPlaces[1]));
         places.add(new Place(getString(R.string.edu_national_museum_tittle), getString(R.string.edu_national_museum_description), tabImageOfEducationPlaces[2]));
-        places.add(new Place(getString(R.string.edu_national_museum_tittle), getString(R.string.edu_museum_of_prison_pawiak_description), tabImageOfEducationPlaces[3]));
+        places.add(new Place(getString(R.string.edu_museum_of_prison_pawiak_tittle), getString(R.string.edu_museum_of_prison_pawiak_description), tabImageOfEducationPlaces[3]));
         places.add(new Place(getString(R.string.edu_warsaw_uprising_museum_tittle), getString(R.string.edu_warsaw_uprising_museum_description), tabImageOfEducationPlaces[4]));
 
         Adapter adapter = new Adapter(getActivity(), places);
